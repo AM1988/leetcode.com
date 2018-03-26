@@ -1,0 +1,20 @@
+/**
+ * Write a function that takes a string as input and returns the string reversed.
+
+ Example:
+ Given s = "hello", return "olleh".
+ */
+
+public class ReverseString {
+    public String reverseString(String s) {
+        String reversed = new StringBuilder(s).reverse().toString();
+        return reversed;
+
+    }
+
+    public static void main(String[] args) {
+        ReverseString revInt = new ReverseString();
+        System.out.println(revInt.reverseString("hellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghjhellpdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5656yy56u56hdrthrhtghj"));
+
+    }
+}
